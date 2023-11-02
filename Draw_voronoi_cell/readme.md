@@ -1,4 +1,4 @@
-This function draw a Voronoi cell given its id and a container object from the [tess](https://github.com/wackywendell/tess) library. It can also draw cell neighbours and normals to the cell faces, as they are provided by the library.
+This function draws a Voronoi cell given its id and a container object from the [tess](https://github.com/wackywendell/tess) library. It can also draw cell neighbours and normals to the cell faces, as they are provided by the library.
 
 This is an example plot:
 ![Tux, the Linux mascot](./voronoi_plot_example.png)
