@@ -1,3 +1,10 @@
+import matplotlib.pyplot as plt
+import itertools
+from tess import Container
+from random import randint
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+
+
 def draw_voronoi_cell_given_id(cell_id, box, flag_draw_neighbors, flag_draw_normals, flag_draw_box):
     
     #lines to keep commented if one wants to change the plot prameters
